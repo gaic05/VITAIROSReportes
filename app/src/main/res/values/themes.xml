@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- El aspecto real lo define Compose (ui/theme). Este tema solo evita el parpadeo al abrir. -->
+    <style name="Theme.Vitairos" parent="android:Theme.DeviceDefault.DayNight">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
